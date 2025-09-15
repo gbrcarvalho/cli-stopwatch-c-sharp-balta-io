@@ -58,13 +58,13 @@ namespace Stopwatch
         static void PreStart(uint endTime)
         {
             Console.Clear();
-            Console.WriteLine("Ready...");
+            Console.WriteLine("Preparar...");
             Thread.Sleep(600);
 
-            Console.WriteLine("Set...");
+            Console.WriteLine("Pronto...");
             Thread.Sleep(600);
 
-            Console.WriteLine("Go...");
+            Console.WriteLine("Iniciar...");
             Thread.Sleep(600);
 
             Start(endTime);
